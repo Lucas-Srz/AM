@@ -1,0 +1,109 @@
+/* Variable */
+:root{
+    --color-brown: rgb(127,96,67);
+    --color-gray: rgb(48,47,47);
+    --color-white: rgb(255,255,255);
+
+    --color-coca: rgb(244,0,0);
+    --color-eau: rgb(0,255,255);
+    --color-perrier: rgb(25, 77, 37);
+    --color-sprite: rgb(0,166,95);
+    --color-orangina: rgb(255,165,0);
+    --color-lipton: rgb(255,237,2);
+    --color-cocazero: rgb(0,0,0);
+    --color-jusOrange: rgb(255,140,0);
+    --color-jusAbricot: rgb(255,177,109);
+    --color-jusFraise: rgb(198,70,69);
+    --color-jusTomate: rgb(161,35,18);
+    --color-jusPomme: rgb(141,182,0);
+    --color-jusAnnanas: rgb(255,204,44);
+}
+
+.coca{background-color: var(--color-coca);}
+.eau{background-color: var(--color-eau);}
+.perrier{background-color: var(--color-perrier);}
+.sprite{background-color: var(--color-sprite);}
+.orangina{background-color: var(--color-orangina);}
+.lipton{background-color: var(--color-lipton);}
+.cocazero{background-color: var(--color-cocazero);}
+
+.orange{background-color: var(--color-jusOrange);}
+.abricot{background-color: var(--color-jusAbricot);}
+.fraise{background-color: var(--color-jusFraise);}
+.tomate{background-color: var(--color-jusTomate);}
+.pomme{background-color: var(--color-jusPomme);}
+.annanas{background-color: var(--color-jusAnnanas);}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ********************** CSS MOBILE FISRT ********************** */
+body{
+    background-color: var(--color-gray);
+    color: var(--color-white);
+    text-align: center;
+}
+
+ul{
+    list-style-type : none;
+}
+
+li{
+    margin: 35% 25%;
+    gap: 15px;
+    background-color: var(--color-brown);
+    box-shadow: 1px 1px 15px 5px var(--color-black);
+    padding: 15px;
+    border-radius: 25px;
+}
+
+a{
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25% ;
+}
+/* table, tr {
+    border: 1px solid var(--color-white);
+} */
+
+/* td{
+    height: 25px;
+    width: 25px;
+} */
+
+img{
+    margin: 8px
+}
+
+.idx_header{
+    margin-top:25%;
+}
+
+.rest_header{
+    margin-top: 5%;
+}
+
+/* *************** CSS POUR Tablette / Ordinateur *************** */
+/* XXX plus grand ou égale à XXXpx */
+/* Tablette ≥ 426px */
+@media screen and (min-width: 426px) {
+
+}
+
+/* LapTop (NoteBock) ≥ 769px */
+@media screen and (min-width: 769px) {
+
+}
+
+/* Desktop ≥ 1025px */
+@media screen and (min-width: 1025px) {
+
+}
