@@ -17,12 +17,12 @@
     <main>
         <table>
             <tr>
-                <td class="coca" colspan="2"><img src="../media/img/coca.png" height="25px" alt="Logo Coca-Cola" onclick="coca()"></td>
-                <td class="eau"><img src="../media/img/eau.png" height="25px" alt="Logo Eaux" onclick="eau()"></td>
-                <td class="perrier"><img src="../media/img/perrier.jpg" height="25px" alt="Logo Perrier" onclick="perrier()"></td>
-                <td class="orange"><img src="../media/img/orange.png" height="25px" alt="Logo Jus d'Orange" onclick="orange()"></td>
-                <td class="abricot"><img src="../media/img/abricot.png" height="25px" alt="Logo Jus d'Abricot" onclick="abricot()"></td>
-                <td class="fraise"><img src="../media/img/fraise.png" height="25px" alt="Logo Jus de Fraise" onclick="fraise()"></td>
+                <td class="coca" colspan="2" onclick="compteur(coca)"><img src="../media/img/coca.png" height="25px" alt="Logo Coca-Cola"></td>
+                <td class="eau" onclick="compteur(eau)"><img src="../media/img/eau.png" height="25px" alt="Logo Eaux"></td>
+                <td class="perrier" onclick="compteur(perrier)"><img src="../media/img/perrier.jpg" height="25px" alt="Logo Perrier"></td>
+                <td class="orange" onclick="compteur(orange)"><img src="../media/img/orange.png" height="25px" alt="Logo Jus d'Orange"></td>
+                <td class="abricot" onclick="compteur(abricot)"><img src="../media/img/abricot.png" height="25px" alt="Logo Jus d'Abricot"></td>
+                <td class="fraise" onclick="compteur(fraise)"><img src="../media/img/fraise.png" height="25px" alt="Logo Jus de Fraise"></td>
             </tr>
             <tr>
                 <td colspan="2" id="coca">00</td>
@@ -35,13 +35,13 @@
         </table>
         <table>
             <tr>
-                <td class="sprite"><img src="../media/img/sprite.png" height="25px" alt="Logo Sprite" onclick="sprite()"></td>
-                <td class="orangina"><img src="../media/img/orangina.png" height="25px" alt="Logo Orangina" onclick="orangina()"></td>
-                <td class="lipton"><img src="../media/img/lipton.png" height="25px" alt="Logo Lipton" onclick="lipton()"></td>
-                <td class="cocazero"><img src="../media/img/cocazero.png" height="25px" alt="Logo Coca-Zero" onclick="cocazero()"></td>
-                <td class="tomate"><img src="../media/img/tomate.png" height="25px" alt="Logo Jus de Tomate" onclick="tomate()"></td>
-                <td class="pomme"><img src="../media/img/pomme.png" height="25px" alt="Logo Jus de Pomme" onclick="pomme()"></td>
-                <td class="annanas"><img src="../media/img/annanas.png" height="25px" alt="Logo Jus d'Annanas" onclick="annanas()"></td>
+                <td class="sprite" onclick="compteur(sprite)"><img src="../media/img/sprite.png" height="25px" alt="Logo Sprite"></td>
+                <td class="orangina" onclick="compteur(orangina)"><img src="../media/img/orangina.png" height="25px" alt="Logo Orangina"></td>
+                <td class="lipton" onclick="compteur(lipton)"><img src="../media/img/lipton.png" height="25px" alt="Logo Lipton"></td>
+                <td class="cocazero" onclick="compteur(cocazero)"><img src="../media/img/cocazero.png" height="25px" alt="Logo Coca-Zero"></td>
+                <td class="tomate" onclick="compteur(tomate)"><img src="../media/img/tomate.png" height="25px" alt="Logo Jus de Tomate"></td>
+                <td class="pomme" onclick="compteur(pomme)"><img src="../media/img/pomme.png" height="25px" alt="Logo Jus de Pomme"></td>
+                <td class="annanas" onclick="compteur(annanas)"><img src="../media/img/annanas.png" height="25px" alt="Logo Jus d'Annanas"></td>
             </tr>
             <tr>
                 <td id="sprite">00</td>
@@ -53,7 +53,8 @@
                 <td id="annanas">00</td>
             </tr>
         </table>
+
+        <img src="../media/img/trash.png" alt="Logo Poubelle" onclick="reset()" class="trash" id="trash">
     </main>
-    <footer></footer>
 </body>
 </html>
